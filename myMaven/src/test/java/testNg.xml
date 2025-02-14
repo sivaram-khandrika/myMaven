@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="false" name="Suite">
+	<groups>
+		<run>
+			<include name="firstGroup"/>
+			<include name= "second"/>
+			<include name = "generic"/>
+			
+		</run>
+	</groups>
+  <test name="TestChrome">
+  		
+  		<parameter name="browser" value="Chrome"/>
+  		
+    <classes>
+    	
+      <class name="com.testngTest.FirstTest"/>
+      
+    </classes>
+  </test> 
+  <test name = "TestEdge">
+  	
+  		<parameter name = "browser" value = "Edge"/>
+  		
+  	
+  	<classes>
+  	
+  		<class name="com.testngTest.SecondTest"/>
+  	</classes>
+  </test>
+  <test name="GenericPrograms">
+  	<classes>
+  		<class name="com.generic.MyException"/>
+  	</classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->

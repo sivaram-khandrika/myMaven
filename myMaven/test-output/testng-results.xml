@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-04T19:51:43 IST" name="Suite" finished-at="2025-02-04T19:52:25 IST" duration-ms="41945">
+    <groups>
+    </groups>
+    <test started-at="2025-02-04T19:51:43 IST" name="PlaywrightTestChrome1" finished-at="2025-02-04T19:52:25 IST" duration-ms="41945">
+      <class name="com.base.playwright.FirstPlaywright">
+        <test-method signature="firstPlaywrightProgram()[pri:0, instance:com.base.playwright.FirstPlaywright@2a4fb17b]" started-at="2025-02-04T19:51:44 IST" name="firstPlaywrightProgram" finished-at="2025-02-04T19:52:25 IST" duration-ms="41777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPlaywrightProgram -->
+      </class> <!-- com.base.playwright.FirstPlaywright -->
+    </test> <!-- PlaywrightTestChrome1 -->
+  </suite> <!-- Suite -->
+</testng-results>
