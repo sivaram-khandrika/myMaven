@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="false" name="Suite">
+
+  <test name="PlaywrightTestChrome1">
+  		
+  		<parameter name="browser" value="Chrome"/>
+  		
+    <classes>
+    	
+      <class name="com.base.playwright.FirstPlaywright"/>
+      
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

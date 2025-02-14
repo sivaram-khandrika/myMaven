@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="GenericPrograms(failed)">
+    <groups>
+      <run>
+        <include name="generic"/>
+        <exclude name="second"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.generic.MyException">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.generic.MyException -->
+    </classes>
+  </test> <!-- GenericPrograms(failed) -->
+</suite> <!-- Failed suite [Suite] -->
